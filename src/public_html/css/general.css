@@ -1,0 +1,99 @@
+:root {
+  --font-primary: Arial, Helvetica, sans-serif;
+  --font-secondary: 'Open Sans', sans-serif;
+
+  --font-weight-normal: 400;
+
+  --color-primary   : #0045C0;
+  --color-secondary : #23A5DB;
+  --color-white     : #FFFFFF;
+  --color-white-2   : #FAFAFA;
+  --color-white-3   : #C1C1C1;
+  --color-white-4   : #EAEAEA;
+  --color-black     : #000000;
+  --color-black-2   : #1A1A1A;
+  --color-gray      : #6C6C6C;
+  --color-gray-2    : #707070;
+
+  --color-wapp      : #25D366;
+  --color-itau      : #00107F;
+
+  --border-rounded-1: 10px;
+}
+
+/*================================
+  General purpose class
+=================================*/
+.c-primary  { color: var(--color-primary  ) }
+.c-white    { color: var(--color-white    ) }
+.c-white-2  { color: var(--color-white-2  ) }
+.c-white-3  { color: var(--color-white-3  ) }
+.c-white-4  { color: var(--color-white-4  ) }
+.c-black    { color: var(--color-black    ) }
+.c-gray     { color: var(--color-gray     ) }
+.c-wapp     { color: var(--color-wapp     ) }
+.c-itau     { color: var(--color-itau     ) }
+
+.bg-black   { background: var(--color-black   ) }
+.bg-black-2 { background: var(--color-black-2 ) }
+
+.fw-300 { font-weight: 300 }
+.fw-400 { font-weight: 400 }
+.fw-500 { font-weight: 500 }
+.fw-600 { font-weight: 600 }
+.fw-700 { font-weight: 700 }
+.fw-800 { font-weight: 800 }
+
+.fs-7 { font-size: 0.95rem }
+
+.ls-1 { letter-spacing: 0.04em }
+
+.ln-opac:hover {
+  color: inherit;
+  filter: opacity(0.7);
+}
+
+.ln-bright:hover {
+  color: inherit;
+  filter: brightness(200%);
+}
+
+.ln-opac-2:hover {
+  color: inherit;
+  filter: opacity(0.7);
+}
+
+.ln-bright-2:hover {
+  color: inherit;
+  filter: brightness(150%);
+}
+
+.bg-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.char-primary   { font-family: var(--font-primary  ) }
+.char-secondary { font-family: var(--font-secondary) }
+
+.mw-100vw { max-width: 100vw }
+
+.z-1000 { z-index: 10000 }
+
+/*================================
+  Bootstrap 5.1.3 grid
+  breakpoints   -  Container max-width
+
+  xs : <576px   -  None(auto)
+  sm : >=576px  -  540px
+  md : >=768px  -  720px
+  lg : >=992px  -  960px
+  xl : >=1200px -  1140px
+  xxl: >=1400px -  1320px
+
+=================================*/
+@media screen and (max-width: 575px) {
+  .p-none-mobile {
+    padding: 0 !important;
+  }
+}

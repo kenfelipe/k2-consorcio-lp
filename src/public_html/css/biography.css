@@ -1,0 +1,55 @@
+/*================================
+  Biography
+/*================================
+
+  Bootstrap 5.1.3 grid
+  breakpoints   -  Container max-width
+
+  xs : <576px   -  None(auto)
+  sm : >=576px  -  540px
+  md : >=768px  -  720px
+  lg : >=992px  -  960px
+  xl : >=1200px -  1140px
+  xxl: >=1400px -  1320px
+
+/*================================
+  col-7                lg
+  width: 58.33333333%  max-width: 960px
+
+  => 960px * 0.5833333333 ~= 560px
+  => 960px - 560px = 400px
+
+=================================*/
+@media screen and (min-width: 992px) {
+  .gp {
+    max-width: 400px;
+  }
+}
+
+/*================================
+  col-7                xl
+  width: 58.33333333%  max-width: 1140px
+
+  => 1140px * 0.5833333333 ~= 665px
+  => 1140px - 665px = 475px
+
+=================================*/
+@media screen and (min-width: 1200px) {
+  .gp {
+    max-width: 475px;
+  }
+}
+
+/*================================
+  col-7                lg
+  width: 58.33333333%  max-width: 1320px
+
+  => 1320px * 0.5833333333 ~= 770px
+  => 1320px - 770px = 550px
+
+=================================*/
+@media screen and (min-width: 1400px) {
+  .gp {
+    max-width: 550px;
+  }
+}

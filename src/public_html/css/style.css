@@ -1,0 +1,51 @@
+@import url('./general.css');
+@import url('./default.css');
+@import url('./overbootstrap.css');
+
+@import url('./carousel.css');
+@import url('./biography.css');
+
+/*================================
+  WhatsApp
+=================================*/
+.btn-wapp {
+  color: var(--color-white);
+  background-color: var(--color-wapp);
+  border: 1px solid var(--color-wapp);
+  border-radius: 12px;
+  opacity: 0.9;
+}
+
+.btn-wapp:hover {
+  color: var(--color-wapp);
+  background-color: var(--color-white);
+}
+
+/*================================
+  Feature
+=================================*/
+.is-feature {
+  font-size: 68px;
+}
+
+/*================================
+  Carousel
+=================================*/
+.fs-carousel {
+  font-size: 26px;
+}
+
+/*================================
+  Arrow
+=================================*/
+.ln-arrow {
+  font-size: 38px;
+  transform: rotate(45deg);
+}
+
+/*================================
+  Form
+=================================*/
+.is-form {
+  font-size: 42px;
+}

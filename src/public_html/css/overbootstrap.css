@@ -1,0 +1,65 @@
+/*********************************
+  Bootstrap Overrides
+*********************************/
+.btn-primary {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-secondary);
+}
+
+.btn-outline-primary {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  border-radius: var(--border-rounded-1);
+}
+
+.btn-outline-primary:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
+
+.btn-outline-secondary {
+  color: var(--color-white-4);
+  border-color: var(--color-white-4);
+  border-radius: var(--border-rounded-1);
+}
+
+.btn-outline-secondary:hover {
+  color: var(--color-black);
+  background-color: var(--color-white-4);
+}
+
+/*================================
+  Bootstrap 5.1.3 grid
+  breakpoints   -  Container max-width
+
+  xs : <576px   -  None(auto)
+  sm : >=576px  -  540px
+  md : >=768px  -  720px
+  lg : >=992px  -  960px
+  xl : >=1200px -  1140px
+  xxl: >=1400px -  1320px
+
+=================================*/
+@media screen and (max-width: 767px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 0 !important;
+  }
+
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    opacity: 0 !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 8% !important;
+  }
+}
