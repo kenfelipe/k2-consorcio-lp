@@ -2,9 +2,9 @@
 <html lang="pt-BR">
 <head>
   <title>K2 Consórcio - Realizamos o seu sonho de comprar a casa própria ou o carro novo.</title>
-  <link rel="icon" type="image/x-icon" href="./assets/img/k2/k2.png">
-
   <meta name="description" content="Nosso trabalho é te ajudar a encontrar a melhor opção do mercado. Conheça as vantagens de se trabalhar com a K2. Processo consultivo, pois orientamos sobre a melhor opção. Sólida experiência, no mercado a mais de 22 anos. Consultor dedicado, trate sempre com a mesma pessoa.">
+
+  <link rel="icon" type="image/x-icon" href="./assets/img/k2/k2.png">
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,20 +35,8 @@
 </head>
 
 <body class="position-relative">
-  <a
-    id="wapp"
-    href="https://api.whatsapp.com/send?phone=5511987654321"
-    target="_blank" rel="noopener noreferrer"
-    class="position-fixed d-flex align-items-center fs-6 px-4 py-3 btn-wapp fw-600 ls-1 z-1000"
-    style="bottom:20px; right:20px;"
-  >
-    <i class="fa-brands fa-whatsapp fs-2 me-2"></i>
-    <span class="ms-1">Fale com um consultor</span>
-  </a>
-
   <header>
     <div class="header_container container py-2">
-
       <!-- Telphone -->
       <div class="header_telphone d-sm-flex justify-content-between align-items-center c-primary">
         <a href="tel:(11)1234-5678"
@@ -118,18 +106,20 @@
         </div>
       </div>
     </div>
-  </header>
 
-  <section class="banner">
-    <div class="banner_container container p-none-mobile">
-      <img src="./assets/img/banner/banner_3.png" alt="..." class="img-fluid w-100">
-    </div>
-  </section>
+    <h1 class="banner container p-none-mobile">
+      <img
+        src="./assets/img/banner/banner_3.png"
+        alt="K2 seguros. Realize seu sonho sem pagar juros"
+        class="img-fluid w-100"
+      >
+    </h1>
+  </header>
 
   <section class="feature py-5">
     <div class="feature_container container py-3">
 
-      <h1 class="text-center fs-2 mb-3 fw-700">A K2 e o consórcio</h1>
+      <h2 class="text-center fs-2 mb-3 fw-700">A K2 e o consórcio</h2>
       <p class="text-center fs-5 c-gray fw-400">Conheça as vantagens de se trabalhar com a K2</p>
 
       <ul class="feature_items row text-center">
@@ -152,13 +142,13 @@
     </div>
   </section>
 
-  <article
+  <div
     id="carousel" class="carousel slide carousel-fade"
     data-bs-ride="carousel"
     data-bs-interval="true"
   >
     <div class="carousel-inner">
-      <section
+      <div
         id="carousel-porto"
         class="carousel-item py-5 bg-cover active"
         data-bs-interval="5000"
@@ -185,9 +175,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section
+      <div
         id="carousel-yamaha"
         class="carousel-item py-5 bg-cover"
         data-bs-interval="5000"
@@ -214,9 +204,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section
+      <div
         id="carousel-itau"
         class="carousel-item py-5 bg-cover"
         data-bs-interval="5000"
@@ -247,9 +237,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section
+      <div
         id="carousel-magalu"
         class="carousel-item py-5 bg-cover"
         data-bs-interval="5000"
@@ -278,7 +268,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
 
     <div class="carousel-indicators">
@@ -298,7 +288,7 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </article>
+  </div>
 
   <section class="dealers py-5">
     <div class="dealers_container container pt-3 mb-4">
@@ -400,7 +390,7 @@
 
   </section>
 
-  <section
+  <div
     class="records"
     style="background-image: url('./assets/img/etc/gray_bg.png')"
   >
@@ -408,21 +398,21 @@
 
       <ul class="records_items row text-center c-black">
         <li class="col-md-4 my-3 my-md-2">
-          <h3 class="fs-1 fw-700">+ 50 Milhões</h3>
+          <p class="h3 fs-1 fw-700">+ 50 Milhões</p>
           <p class="fs-5 c-gray">Créditos<br/>vendidos</p>
         </li>
         <li class="col-md-4 my-3 my-md-2">
-          <h3 class="fs-1 fw-700">+ 1000</h3>
+          <p class="h3 fs-1 fw-700">+ 1000</p>
           <p class="fs-5 c-gray">Clientes<br/>ativos</p>
         </li>
         <li class="col-md-4 my-3 my-md-2">
-          <h3 class="fs-1 fw-700">+ 22 anos</h3>
+          <p class="h3 fs-1 fw-700">+ 22 anos</p>
           <p class="fs-5 c-gray">Ajudando pessoas a<br/>realizar seus sonhos</p>
         </li>
       </ul>
 
     </div>
-  </section>
+  </div>
 
   <section id="form" class="form py-5">
     <div class="form_container container pt-3 pb-4">
@@ -484,9 +474,9 @@
 
         <!-- Contact -->
         <div class="col-md-6 c-white-3">
-          <h4 class="text-center text-md-start fs-6 mb-3 c-white fw-600 ls-1">
+          <h2 class="text-center text-md-start fs-6 mb-3 c-white fw-600 ls-1">
             K2 Corretora de Seguros e Consórcios
-          </h4>
+          </h2>
 
           <ul class="d-flex flex-column gap-2 text-center text-md-start fs-7 ls-1">
             <li>Av. Lorem ipsum dolor sit amet, XXXXX | SP</li>
@@ -539,6 +529,18 @@
 
       </div>
     </div>
+
+    <!-- Fixed WhatsApp -->
+    <a
+      id="wapp"
+      href="https://api.whatsapp.com/send?phone=5511987654321"
+      target="_blank" rel="noopener noreferrer"
+      class="position-fixed d-flex align-items-center fs-6 px-4 py-3 btn-wapp fw-600 ls-1 z-1000"
+      style="bottom:20px; right:20px;"
+    >
+      <i class="fa-brands fa-whatsapp fs-2 me-2"></i>
+      <span class="ms-1">Fale com um consultor</span>
+    </a>
   </footer>
 
   <?= isset($_POST['mvform']) ? "<script>scrollto('form');</script>" : ''; ?>
