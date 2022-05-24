@@ -62,18 +62,22 @@
             <a class="ln-opac-2"
               href="#" target="_blank" rel="noopener noreferrer"
             >
-              <img src="./assets/img/logo/porto_1.png" alt="..." style="width:120px">
+              <img src="./assets/img/logo/porto_1.png" alt="PORTO SEGURO CONSÓRCIO" style="width:120px">
             </a>
             <button class="ln-opac-2" onclick="scrollto('form')">
-              <img src="./assets/img/logo/yamaha_1.png" alt="..." style="width:140px">
+              <img src="./assets/img/logo/yamaha_1.png" alt="YAMAHA CONSÓRCIO" style="width:140px">
             </button>
           </div>
           <div class="d-flex justify-content-around align-items-center my-2">
             <button class="ln-opac-2" onclick="scrollto('form')">
-              <img src="./assets/img/logo/itau_1.png" alt="..." style="width:120px">
+              <img
+                src="./assets/img/logo/itau_1.png"
+                alt="Itaú Consórcios. É simples. È seguro. É do Itaú."
+                style="width:120px"
+              >
             </button>
             <button class="ln-opac-2" onclick="scrollto('form')">
-              <img src="./assets/img/logo/magalu_1.png" alt="..." style="width:120px">
+              <img src="./assets/img/logo/magalu_1.png" alt="consórcio magalu" style="width:120px">
             </button>
           </div>
         </div>
@@ -84,22 +88,26 @@
               <a class="ln-opac-2"
                 href="#" target="_blank" rel="noopener noreferrer"
               >
-                <img src="./assets/img/logo/porto_1.png" alt="..." style="width:140px">
+                <img src="./assets/img/logo/porto_1.png" alt="PORTO SEGURO CONSÓRCIO" style="width:140px">
               </a>
             </li>
             <li>
               <button class="ln-opac-2" onclick="scrollto('form')">
-                <img src="./assets/img/logo/yamaha_1.png" alt="..." style="width:160px">
+                <img src="./assets/img/logo/yamaha_1.png" alt="YAMAHA CONSÓRCIO" style="width:160px">
               </button>
             </li>
             <li>
               <button class="ln-opac-2" onclick="scrollto('form')">
-                <img src="./assets/img/logo/itau_1.png" alt="..." style="width:140px">
+                <img
+                  src="./assets/img/logo/itau_1.png"
+                  alt="Itaú Consórcios. É simples. È seguro. É do Itaú."
+                  style="width:140px"
+                >
               </button>
             </li>
             <li>
               <button class="ln-opac-2" onclick="scrollto('form')">
-                <img src="./assets/img/logo/magalu_1.png" alt="..." style="width:140px">
+                <img src="./assets/img/logo/magalu_1.png" alt="consórcio magalu" style="width:140px">
               </a>
             </li>
           </ul>
@@ -161,7 +169,7 @@
                 class="d-inline-block ln-bright-2"
                 href="./portoconsorcio" target="_blank" rel="noopener noreferrer"
               >
-                <img src="./assets/img/logo/porto_3.png" alt="..." class="img-fluid">
+                <img src="./assets/img/logo/porto_3.png" alt="Porto Seguro Bank" class="img-fluid">
               </a>
               <p class="fs-carousel c-black fw-700 my-4 pt-3 pb-2">
                 Com o Porto Seguro Consórcio, você se planeja para conquistar seus objetivos.
@@ -190,7 +198,7 @@
                 class="d-inline-block ln-bright-2"
                 onclick="scrollto('form')"
               >
-                <img src="./assets/img/logo/yamaha_1.png" alt="..." class="img-fluid">
+                <img src="./assets/img/logo/yamaha_1.png" alt="YAMAHA CONSÓRCIO" class="img-fluid">
               </button>
               <p class="fs-carousel c-white-4 fw-700 my-4 pt-3 pb-2">
                 Com a YAMAHA Consórcio, você pode conquistar sua YAMAHA dos sonhos.
@@ -219,7 +227,11 @@
                 class="d-inline-block ln-bright-2"
                 onclick="scrollto('form')"
               >
-                <img src="./assets/img/logo/itau_1.png" alt="..." class="img-fluid">
+                <img
+                  src="./assets/img/logo/itau_1.png"
+                  alt="Itaú Consórcios. É simples. È seguro. É do Itaú."
+                  class="img-fluid"
+                >
               </button>
               <p class="fs-carousel c-itau fw-500 my-4 pt-3 pb-2">
                 <span class="d-inline-block fs-1 lh-sm mb-3 fw-700">
@@ -252,7 +264,7 @@
                 class="d-inline-block ln-bright-2"
                 onclick="scrollto('form')"
               >
-                <img src="./assets/img/logo/magalu_1.png" alt="..." class="img-fluid">
+                <img src="./assets/img/logo/magalu_1.png" alt="consórcio magalu" class="img-fluid">
               </button>
               <p class="fs-carousel c-white-4 fw-700 my-4 pt-3 pb-2">
                 <span class="d-inline-block mb-3">#É PRA TUDO!!</span>
@@ -304,22 +316,26 @@
           <a class="ln-opac"
             href="#" target="_blank" rel="noopener noreferrer"
           >
-            <img src="./assets/img/logo/porto_1.png" alt="..." style="width:200px">
+            <img src="./assets/img/logo/porto_1.png" alt="PORTO SEGURO CONSÓRCIO" style="width:200px">
           </a>
         </li>
         <li>
           <button class="ln-opac-2" onclick="scrollto('form')">
-            <img src="./assets/img/logo/yamaha_1.png" alt="..." style="width:220px">
+            <img src="./assets/img/logo/yamaha_1.png" alt="YAMAHA CONSÓRCIO" style="width:220px">
           </button>
         </li>
         <li>
           <button class="ln-opac-2" onclick="scrollto('form')">
-            <img src="./assets/img/logo/itau_1.png" alt="..." style="width:200px">
+            <img
+              src="./assets/img/logo/itau_1.png"
+              alt="Itaú Consórcios. É simples. È seguro. É do Itaú."
+              style="width:200px"
+            >
           </button>
         </li>
         <li class="mt-4 mt-lg-0">
           <button class="ln-opac-2" onclick="scrollto('form')">
-            <img src="./assets/img/logo/magalu_1.png" alt="..." style="width:200px">
+            <img src="./assets/img/logo/magalu_1.png" alt="consórcio magalu" style="width:200px">
           </button>
         </li>
       </ul>
@@ -356,7 +372,7 @@
         </a>
       </div>
 
-      <img src="./assets/img/etc/handshake.png" alt="..." class="img-fluid">
+      <img src="./assets/img/etc/handshake.png" alt="" class="img-fluid">
     </div>
 
     <!-- PC -->
@@ -520,7 +536,8 @@
               Uma Empresa
             </span>
             <img
-              src="./assets/img/k2/k2_seguros.png" alt="..."
+              src="./assets/img/k2/k2_seguros.png"
+              alt="K2 SEGUROS"
               class="img-fluid"
               style="max-width:120px"
             />
